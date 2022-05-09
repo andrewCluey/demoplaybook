@@ -1,6 +1,7 @@
 ---
   # Play1 - stuff
   - name: Stuff
+    hosts: all
     become: yes
     become_user: root
     tasks:
