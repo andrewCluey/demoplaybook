@@ -1,4 +1,10 @@
-- name: Install cowsays
-  apt:
-    name: cowsays
-    state: present
+---
+  # Play1 - stuff
+  - name: Stuff
+    become: yes
+    become_user: root
+    tasks:
+      - name: Install cowsays
+        apt:
+          name: cowsays
+          state: present
