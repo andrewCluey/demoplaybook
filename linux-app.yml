@@ -1,0 +1,4 @@
+- name: Install cowsays
+  apt:
+    name: cowsays
+    state: present
