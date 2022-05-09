@@ -5,7 +5,7 @@
     become: yes
     become_user: root
     tasks:
-      - name: Install cowsays
+      - name: Install cowsay
         apt:
-          name: cowsays
+          name: cowsay
           state: present
