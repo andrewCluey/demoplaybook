@@ -1,7 +1,7 @@
 ---
   # Play1 - stuff
   - name: Stuff
-    hosts: all
+    hosts: tag_cowsays_true
     become: yes
     become_user: root
     tasks:
